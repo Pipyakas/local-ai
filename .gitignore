@@ -1,0 +1,5 @@
+# Allowlist: ignore everything at the top level, then opt paths back in.
+# Models, builds, caches, datasets and other binaries never get committed.
+/*
+!/.gitignore
+!/gb10/
